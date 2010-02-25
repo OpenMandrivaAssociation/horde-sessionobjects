@@ -15,7 +15,6 @@ BuildArch:     noarch
 Requires(pre): %{_bindir}/pear
 Requires:      horde-framework
 Requires:      php-pear
-BuildRequires: horde-framework
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
 BuildRoot:     %{_tmppath}/%{name}-%{version}

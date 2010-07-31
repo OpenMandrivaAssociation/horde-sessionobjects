@@ -17,7 +17,7 @@ Requires:      horde-framework
 Requires:      php-pear
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
-BuildRoot:     %{_tmppath}/%{name}-%{version}
+
 
 %description
 The Horde_SessionObjects:: class provides a way for storing data (usually,

@@ -53,3 +53,26 @@ fi
 %{xmldir}/%{prj}.xml
 %{peardir}/Horde/SessionObjects.php
 
+
+
+%changelog
+* Sat Jul 31 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-3mdv2011.0
++ Revision: 564099
+- Increased release for rebuild
+
+* Wed Mar 17 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-3mdv2010.1
++ Revision: 523008
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+
+* Thu Feb 25 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-2mdv2010.1
++ Revision: 510889
+- removed BuildRequires: horde-framework
+- added BuildRequires: horde-framework
+
+* Thu Feb 25 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-1mdv2010.1
++ Revision: 510867
+- replaced PreRqu with Requires(pre)
+- removed BuildRequires: horde-framework
+- import horde-sessionobjects
+
+
